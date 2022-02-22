@@ -1,19 +1,27 @@
 *{
   box-sizing: border-box;
 }
+#root{
+  width: 500px;
+}
 
-table, tr, td, th{
-  border: 1px solid #000;
+table, tr, td{
   border-collapse: collapse;
   padding: 10px 20px;
-  margin: auto;
+  width: 500px;
 }
+th{
+  border-bottom: 1px solid black;
+  padding-left: 40px;
+}
+
+
 
 .rating{
   cursor: pointer;
   border: none;
   background: transparent;
-  padding: 10px 50px 15px;
+  padding: 5px 70px;
   align-items: center;
 }
 
@@ -32,6 +40,7 @@ table, tr, td, th{
 
 .check{
   display: flex;
+  align-items: center;
 }
 .attend{
     margin: 0 5px;
@@ -46,13 +55,16 @@ table, tr, td, th{
   border: 1px solid gray;
 }
 .button-control{
-  margin-left: 294px;
-  padding: 15px 5px;
+  margin-left: 271px;
   border-radius: 10px;
+  padding: 10px 6px;
   border: none;
   background-color: #8d4de8;
   color: white;
+  font-size: 16px;
 }
-.contaiter{
-  text-align: center;
+.button-control:hover{
+background-color: #8142d3;
 }
+
+
